@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;800;900&family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/*  font-family: 'Cinzel'; 
+    font-family: 'Comfortaa' */
+
+body {
+  font-family: 'Comfortaa';
+}
+
+h1 {
+  background: #e4e0e0b3;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+h1, h5 {
+  font-family: 'Cinzel';
+}
+
+header>div {
+  border: 2px solid #9f9f9f84;
+}
+
+header>div>div:nth-child(1) {
+  border-top: 2px solid #9f9f9f84;
+}
+
+header>div>div:last-of-type {
+  border-bottom: 2px solid #9f9f9f84;
+}
+
+main section:nth-child(1) {
+  background-color: #9f9f9fa2;
+}
+
+footer {
+  background-color: #9f9f9fa2;
+  font-weight: 500;
+}
